@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas | Curso practico Js. Platzi</title>
+</head>
+<body>
+    <header>
+        <h1>Figuras Geometricas</h1>
+        <p>Este es el primer Taller del curso practico de JS de platzi</p>
+        <section>
+            <h2>Calcula el Area y Perimetro de un Cuadrado</h2>
+            <form>
+                <label>Escribe cuanto mide cada lado de tu cuadrado: </label>
+                <input id="InputCuadrado" type="number"/>
+                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el Perimetro</button>
+                <button type="button" onclick="calcularAreaCuadrado()">Calcular el Area</button>
+            </form>
+            <h2>Calcula el Area y Perimetro de un Triangulo Isoceles</h2>
+            <form>
+                <label>Escribe cuanto mide cada lado de tu Triangulo: </label>
+                <input id="InputTrianguloIsoceles1" type="number"/>
+                <input id="InputTrianguloIsoceles2" type="number"/>
+                <input id="InputTrianguloIsoceles3" type="number"/>
+                <button type="button" onclick="calcularPerimetroTrianguloIsoceles()">Calcular el Perimetro</button>
+                <button type="button" onclick="calcularAreaTrianguloIsoceles()">Calcular el Area</button>
+            </form>
+        </section>
+    </header>
+    <script src="figuras.js"></script>
+</body>
+</html>

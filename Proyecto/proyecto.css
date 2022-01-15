@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    align-items: center;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 0.5em;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 0.5em;
+}
+
+h2{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+#p1{
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+}
+
+#container{
+    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    padding: 1% 1.5% 1.5% 1.5%;
+    position: relative;
+    width: 70%;
+    text-align: left;   
+    margin: 0 auto;
+}
+
+#Result{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+#BBVA{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    font-style: italic;
+}

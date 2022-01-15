@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proyecto.css">
+    <title>Porcentajes y Descuentos | Curso practico JS Platzi</title>
+</head>
+<body>
+    <header>
+
+    <h1>Capacidad de endeudamiento</h1>
+
+    </header>
+
+    <section id="container">
+    
+        <h2>Calcula cual es tu capacidad maxima de endeudamiento</h2>
+        <p id="p1">Son muchas las personas que no se detienen a pensar cuánto es lo que gastan mensualmente y, por lo tanto, 
+            no hacen una adecuada administración de sus ingresos. A pesar de ello, la mayoría se arriesga a solicitar 
+            préstamos sin antes considerar cuánto de su presupuesto van a destinar al pago de la deuda 
+            y cuánto necesitan para seguir cubriendo sus gastos del mes. 
+            ¿Cómo saber hasta cuánto uno puede endeudarse?</p>
+        <form>
+            <label id="InputText" for="InputIncome">Ingreso mensual</label>
+            <br>
+            <input id="InputIncome" type="number"/>
+            <br>
+            <label id="InputText" for="InputExpenses">Tus gastos mensuales fijos</label>
+            <br>
+            <input id="InputExpenses" type="number"/>
+            <br>
+            <button type="button" onclick="OnClickButtonBorrowingCalculate()">Calcular capacidad de endeudamiento</button>
+            <p id="Result"></p>
+        </form>
+        <p id="p1">El capital máximo por el que una persona se puede endeudar sin poner en peligro su integridad financiera. 
+        Los expertos calculan que el límite de capacidad de endeudamiento es entre un 35% y 40% 
+            de los ingresos netos mensuales. Es decir, el resultado de la resta de los ingresos totales 
+            y los gastos fijos en un mes. </p>
+        </section>
+    <p id="BBVA">Datos extraidos de: www.bbva.com</p>
+    <script src="proyecto.js"></script>
+</body>
+</html>
